@@ -68,3 +68,27 @@ a {
     font-weight: 800;
     color: #F9FAF8;
 }
+
+.information h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 145px;
+    text-align: center;
+}
